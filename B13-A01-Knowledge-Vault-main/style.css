@@ -78,6 +78,7 @@ gap: 32;
     background-color: red;
     color: var(--dark-color);
     border: 2px solid var(--light-gray);
+    margin-right: 30px;
 }
 
 .btn-outline:hover {
@@ -113,6 +114,7 @@ gap: 32;
     font-weight: 700;
     font-size: 20px;
     color: var(--dark-color);
+    margin-left: 30px;
 }
 
 .nav {
