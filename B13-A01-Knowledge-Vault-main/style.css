@@ -175,43 +175,6 @@ gap: 32;
     flex-wrap: wrap;
 }
 
-.hero-image {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-}
-
-
-
-.note-card {
-    padding: 15px;
-    border-radius: var(--border-radius);
-    border-left: 4px solid var(--primary-color);
-    background-color: var(--light-color);
-    transition: var(--transition);
-}
-
-.note-card:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.note-card h4 {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 8px;
-    font-size: 16px;
-}
-
-.note-card h4 i {
-    color: var(--primary-color);
-}
-
-.note-card p {
-    font-size: 14px;
-    color: var(--gray-color);
-}
 
 /* Problem Section */
 .problem-section {
@@ -266,11 +229,6 @@ gap: 32;
     align-items: center;
     justify-content: center;
     margin: 0 auto 20px;
-}
-
-.problem-icon i {
-    font-size: 24px;
-    color: var(--accent-color);
 }
 
 .problem-card h3 {
@@ -442,10 +400,6 @@ gap: 32;
     justify-content: center;
     align-items: center;
     gap: 10px;
-}
-
-.cta-note i {
-    color: var(--accent-color);
 }
 
 /* Footer */
